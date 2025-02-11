@@ -2,7 +2,7 @@
 
 Semester Project Selected Langauge: Python </br>
 
-##Sample output: </br>
+## Sample output: </br>
 times = []</br>
 readings_core_0 = []</br>
 readings_core_1 = []</br>
