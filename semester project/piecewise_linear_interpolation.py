@@ -47,6 +47,6 @@ def piecewise_linear_interpolation(parse_temps, input_filename, output_dir = "ou
                 c0 = y_k - c1 * x_k  #calculates the intercept (the 'b' in y = mx + b)
                 
                 #write to the file 
-                f.write(f"{x_k}<=x<{x_k1}; y={c0:.6f}+{c1:.6f}x; interpolation\n")
+                f.write(f"{x_k}<=x<={x_k1}; y={c0:.6f}+{c1:.6f}x; interpolation\n")
     
     #print(f"Interpolation results saved in '{output_dir}' directory.") 
