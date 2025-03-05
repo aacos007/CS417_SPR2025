@@ -32,4 +32,10 @@ def parse_raw_temps(
             float(entry) for entry in split_re.split(line) if len(entry) > 0
         ]
 
+#def piecewise_linear_interpolation()
+  # {
+    #     y=((y1-y0)/(x1-x0)) *(x-x0)+y0
+    
+   # }
+
         

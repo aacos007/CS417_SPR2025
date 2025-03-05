@@ -1,6 +1,7 @@
 import sys
 
 from parse_temps import parse_raw_temps
+from piecewise_linear_interpolation import piecewise_linear_interpolation
 
 
 def main():
