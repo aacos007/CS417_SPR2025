@@ -66,6 +66,9 @@ def main():
         for time, *temps in list(zip(times, *core_data))[4:]:
             print(f"{time=} {temps=}")
 
+    with open(input_temps, "r") as temps_file:
+        parsed_temps = list(parse_raw_temps(temps_file))  # Convert generator to list
+        piecewise_linear_interpolation(parsed_temps, input_temps)  # Call interpolation
 
 if __name__ == "__main__":
     main()
