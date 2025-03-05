@@ -5,6 +5,8 @@
 
 Driver is *parse_temps_demo.py*</br>
 
+To run via command prompt: *python3 parse_temps_demo.py {name_of_file.txt}*
+
 ## Sample output: </br>
 times = []</br>
 readings_core_0 = []</br>
