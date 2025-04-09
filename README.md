@@ -18,3 +18,4 @@ readings_core_3 = []</br> </br>
 
 Credit for parse_temps.py & parse_temps_demo.py files: https://github.com/cstkennedy/cs417-examples/tree/master/SemesterProject-CPU-Temps/python3 
 
+Credit for updated interpolation file: https://github.com/cstkennedy/2025-Spring-CS417-Semester-Project-Review-1/blob/main/interpolation.py  

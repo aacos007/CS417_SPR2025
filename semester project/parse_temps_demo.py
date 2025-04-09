@@ -2,6 +2,7 @@ import sys
 
 from parse_temps import parse_raw_temps
 from piecewise_linear_interpolation import piecewise_linear_interpolation
+from least_squares_approximation import least_squares_approximation 
 
 
 def main():
