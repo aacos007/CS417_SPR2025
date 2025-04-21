@@ -1,9 +1,6 @@
 import sys
 
 from parse_temps import parse_raw_temps
-from piecewise_linear_interpolation import piecewise_linear_interpolation
-from least_squares_approximation import least_square_approximation 
-
 
 
 def main():
@@ -68,9 +65,6 @@ def main():
         for time, *temps in list(zip(times, *core_data))[4:]:
             print(f"{time=} {temps=}")
 
-    with open(input_temps, "r") as temps_file:
-        parsed_temps = list(parse_raw_temps(temps_file))  # Convert generator to list
-        piecewise_linear_interpolation(parsed_temps, temps_file, input_temps, list_of_times = [])  # Call interpolation
 
 if __name__ == "__main__":
     main()
